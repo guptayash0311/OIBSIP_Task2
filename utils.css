@@ -1,0 +1,21 @@
+.name{
+    color: rgb(73 67 219);
+}
+
+#element{
+    color: rgb(198 41 247);
+}
+
+main hr{
+    border: 0px;
+    background-color: #b7b7e2;
+    margin: 180px 92px;
+    height: 1px;
+}
+
+.allhr{
+    border: 0px;
+    background-color: #b7b7e2;
+    margin: 100px 92px;
+    height: 1px;
+}

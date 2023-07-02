@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yash Gupta</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="utils.css">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar flex items-centre justify-around">
+            <div class="left">
+                My Portfolio
+            </div>
+            <div class="right">
+                <ul class="flex justify-centre">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="section1 flex justify-around">
+            <div class="leftsection1">
+                Hello, its me
+                <div><strong><span class="name">Yash Gupta</span></strong></div>
+                And I am 
+                <span id="element"></span>
+            </div>
+            <div class="rightsection1">
+                <img class="img1" src="images/1.gif" alt="Developer Image">
+            </div>
+        </section>
+        <hr>
+        <section class="section2">
+            <span>What I have done so far</span>
+            <h1>Work Experience</h1>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['Web Developer.', 'Frontend Developer.','Graphics Designer.','Content Writer.','Dance Choreographer.'],
+          typeSpeed: 120,
+        });
+      </script>
+</body>
+</html>
